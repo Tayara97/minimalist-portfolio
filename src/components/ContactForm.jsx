@@ -1,9 +1,7 @@
 import Header from "./Header.jsx/";
 
 const ContactForm = () => {
-  const handleSubmit = () => {
-    // e.preventDefault();
-  };
+  const handleSubmit = () => {};
   return (
     <>
       <Header>Contact</Header>
