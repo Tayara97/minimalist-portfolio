@@ -1,7 +1,7 @@
 import Header from "./Header.jsx/";
 
 const ContactForm = () => {
-  const handleSubmit = () => {};
+
   return (
     <>
       <Header>Contact</Header>
@@ -9,7 +9,7 @@ const ContactForm = () => {
         <form
           action="https://formspree.io/f/xzzbvazv"
           method="POST"
-          onSubmit={handleSubmit}
+        
         >
           <input
             type="text"
